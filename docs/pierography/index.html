@@ -29,16 +29,49 @@
 <section id="homepage">
     <h2>Homepage</h2>
     <h3>PIErography</h3>
-    <blockquote>PIE Example</blockquote>
+    <blockquote>PIErography is a 3-axis GRBL-controlled CNC pyrography machine that burns vector designs into wood using a heated tip</blockquote>
     <h3>Project Summary</h3>
-    <p>By the end of the semester, our goal is to design and build a CNC wood burning machine 
+    <p>In two months our goal was to design and build a CNC wood burning machine 
       that can accurately burn custom designs onto wood surfaces. The system will use Grbl firmware 
       to control X, Y, and Z-axes via stepper motors. </p>
 
-    <h3>Final Product Image</h3>
+     <h3>CAD of Project</h3>
     <div class="image-container">
-        <img src="media/full_assembly_clamps.png" alt="Final Product Image">
+        <img src="media/full_assembly_clamps.png" alt="FinaL CAD Image">
     </div>
+
+      <h3>Final Product Image</h3>
+    <div class="image-container">
+        <img src="media/real_final.png" alt="Final Product Image">
+    </div>
+
+    
+
+    <h3>What It Does</h3>
+<ul>
+  <li>Burns custom designs onto wood surfaces.</li>
+  <li>Runs on GRBL g-code to control X, Y, and Z motion.</li>
+  <li>Enables repeatable alignment using a fixed work surface.</li>
+  <li>Adjustable burn depth via Z control and temperature/speed tuning.</li>
+</ul>
+
+<h3>Specs at a Glance</h3>
+<ul>
+  <li><strong>Working area:</strong> TBD</li>
+  <li><strong>Controller:</strong> Arduino + GRBL</li>
+  <li><strong>Motion:</strong> Belt drive (X/Y), lead screw (Z)</li>
+  <li><strong>Tool:</strong> Pyrography pen </li>
+  <li><strong>Materials:</strong> Plywood / MDF / Wood</li>
+</ul>
+
+<h3>How It Works</h3>
+<ol>
+  <li>Design is imported (SVG / DXF).</li>
+  <li>CAM generates g-code (Fusion / Inkscape / other).</li>
+  <li>GRBL executes motion while the heated tip burns the path.</li>
+</ol>
+
+
 </section>
 
 <hr>
